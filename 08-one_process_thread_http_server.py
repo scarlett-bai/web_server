@@ -89,7 +89,7 @@ def main():
             except Exception as ret:
                 print('----这个客户端没有发送数据----')
             else:
-                if recv_data = client_socket.recv():
+                if recv_data:
                     print('----客户端发送了数据----')
                 else:
                     client_socket.close()
